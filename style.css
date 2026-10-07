@@ -1,0 +1,156 @@
+/* Estil general per a la pàgina */
+body {
+  background-color: #f8f9fa; /* Fons clar i net */
+  color: #333333; /* Color de text principal fosc però no massa */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonts modernes i llegibles */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white; /* Compatibilitat amb el segon estil */
+}
+
+/* Estil per als paràgrafs */
+p {
+  color: #4a4a4a; /* Color de text secundari */
+  margin-bottom: 15px;
+}
+
+/* Estil per als títols */
+h1 {
+  color: #2c3e50; /* Blau fosc elegant */
+  font-family: 'Georgia', 'Times New Roman', Times, serif; /* Font serif per als títols */
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3498db; /* Separador subtil */
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #3498db; /* Blau clar */
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #2980b9; /* Blau més fosc */
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #1a5276; /* Blau molt fosc */
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+/* Estil per als enllaços */
+a {
+  color: #e74c3c; /* Vermell elegant */
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:hover {
+  color: #c0392b; /* Vermell més fosc en passar-hi a sobre */
+  text-decoration: underline;
+}
+
+/* Estil per als botons */
+button {
+  background-color: #3498db; /* Blau clar */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9; /* Blau més fosc */
+}
+
+/* Estil per a les llistes */
+ul, ol {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* Estil per a les imatges */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Estil per als formularis */
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input:focus, textarea:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+/* Estil per al rellotge */
+.clock {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 60px;
+  font-family: Orbitron, 'Courier New', monospace;
+  letter-spacing: 7px;
+  margin-top: 40px;
+}
+
+/* Botó mode fosc (sota el rellotge) */
+.dark-wrap {
+  text-align: center;
+  margin: 15px 0 30px;
+}
+
+/* Mode fosc */
+body.dark {
+  background-color: #1e1e2f;
+  background: #1e1e2f;
+  color: #e0e0e0;
+}
+
+body.dark p,
+body.dark li {
+  color: #cfcfcf;
+}
+
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark h4,
+body.dark .clock {
+  color: #ecf0f1;
+}
+
+body.dark table,
+body.dark th,
+body.dark td {
+  border-color: #666;
+}
+          
